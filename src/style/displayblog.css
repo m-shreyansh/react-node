@@ -1,0 +1,107 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: darkgray;
+  text-decoration: none;
+  margin: 2%;
+  padding: 5px;
+}
+.blogs-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+  /* background-color: darkgreen; */
+  list-style: none;
+}
+.author-details {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.views-likes {
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.likes {
+  width: 8%;
+  /* background-color: darkkhaki; */
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: center;
+}
+.views {
+  margin-right: 5%;
+  /* background-color: darkmagenta; */
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: center;
+}
+.blog-content {
+  /* background-color: chocolate; */
+}
+.blog-title {
+  /* background-color: darkmagenta; */
+  font-weight: bold;
+}
+
+.sorting-buttons {
+  /* background-color: darksalmon; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.real-sorting-buttons li {
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: brown; */
+}
+
+.real-sorting-buttons {
+  position: absolute;
+  margin-top: 40px;
+  width: 108px;
+  border-radius: 5px;
+  flex-direction: column;
+  transition: all 0.4s ease;
+  opacity: 1;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  background-color: darkolivegreen;
+}
+.real-sorting-buttons :hover {
+  background-color: rgb(171, 175, 175);
+}
+.blogs-list li:hover {
+  text-decoration: none;
+  background-color: rgb(171, 175, 175);
+}
+
+.blogs-list button:hover {
+  text-decoration: none;
+  /* background-color: rgb(84, 90, 90); */
+}
+* {
+  text-decoration: none;
+  color: black;
+}
+
+.temp {
+  /* background-color: darkolivegreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
